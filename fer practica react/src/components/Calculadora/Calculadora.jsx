@@ -36,13 +36,13 @@ const Calculadora = () => {
             <h1>calculadora</h1>
             <input
                 type="number"
-                placeholder="Número 1"
+                placeholder="numerop 1"
                 value={num1}
                 onChange={(e) => setNum1(e.target.value)}
             />
             <input
                 type="number"
-                placeholder="Número 2"
+                placeholder="numerop 2"
                 value={num2}
                 onChange={(e) => setNum2(e.target.value)}
             />
